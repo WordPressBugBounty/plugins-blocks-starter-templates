@@ -7818,22 +7818,24 @@
                 className: "inner"
             }, React.createElement(et, null), React.createElement(wa, null), React.createElement(Ka, null)))
         })));
+        var no = document.getElementById("site-editor");
 
         function to() {
             wp.data.subscribe((function() {
                 setTimeout((function() {
                     ! function() {
-                        if (!document.querySelector("#editor .edit-post-header__toolbar")) return null;
+                        if (!document.querySelector(".edit-post-header-toolbar")) return null;
                         if (document.querySelector("#wpst-block-templates-button-wrap")) return null;
                         var e = document.createElement("div");
-                        e.id = "wpst-block-templates-button-wrap", document.querySelector("#editor .edit-post-header__toolbar").appendChild(e)
+                        e.id = "wpst-block-templates-button-wrap", document.querySelector(".editor-header__toolbar").appendChild(e)
                     }(),
                     function() {
+                        if (no && !document.getElementsByClassName("is-edit-mode")[0]) return null;
                         if (document.getElementById("wpst-block-templates-modal-wrap")) return null;
                         var e = document.createElement("div");
                         e.id = "wpst-block-templates-modal-wrap", e.classList.add(WPSTBlockTemplatesVars.popup_class), e.innerHTML = '<div id="wpst-block-templates-modal"></div>', document.body.appendChild(e), wp.element.render(React.createElement(eo, null), document.getElementById("wpst-block-templates-modal"))
                     }()
-                }), 500)
+                }), 400)
             }))
         }
         document.addEventListener("load", to), document.addEventListener("DOMContentLoaded", to)

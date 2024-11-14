@@ -295,7 +295,7 @@ if ( ! class_exists( 'WPST_Block_Templates' ) ) :
 				return;
 			}
 
-			wp_enqueue_script( 'wpst-block-templates', WPST_BLOCK_TEMPLATES_URI . 'dist/main.js', array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor', 'masonry', 'imagesloaded', 'updates' ), WPST_BLOCK_TEMPLATES_VER, true );
+			wp_enqueue_script( 'wpst-block-templates', WPST_BLOCK_TEMPLATES_URI . 'dist/main.js', array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor', 'masonry', 'imagesloaded', 'updates', 'media-upload', 'wp-util', 'regenerator-runtime' ), WPST_BLOCK_TEMPLATES_VER, true );
 			wp_add_inline_script( 'wpst-block-templates', 'window.lodash = _.noConflict();', 'after' );
 
 			wp_enqueue_style( 'wpst-block-templates', WPST_BLOCK_TEMPLATES_URI . 'dist/style.css', array(), WPST_BLOCK_TEMPLATES_VER, 'all' );

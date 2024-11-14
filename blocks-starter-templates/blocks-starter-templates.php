@@ -3,7 +3,7 @@
  * Plugin Name: Blocks Starter Templates
  * Plugin URI: https://wp-fse.com/
  * Description: Gutenberg starter templates and patterns
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: Blocks WP
  * Author URI: https://blocks-wp.com/
  * License: GPL-2.0+
