@@ -1,9 +1,9 @@
 === Blocks Starter Templates ===
 Contributors: theblockswp
-Requires at least: 6.1
-Tested up to: 6.7
+Requires at least: 6.2
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: starter templates, fse, gutenberg, patterns, block editor
@@ -114,6 +114,9 @@ With enabled Gutenberg plugin, yes.
 4. Import custom pattern
 
 == Changelog ==
+
+= 1.0.5 =
+- Tested with WP 7.0
 
 = 1.0.4 =
 - Tested with WP 6.7

@@ -3,7 +3,7 @@
  * Plugin Name: Blocks Starter Templates
  * Plugin URI: https://wp-fse.com/
  * Description: Gutenberg starter templates and patterns
- * Version: 1.0.4
+ * Version: 1.0.5
  * Author: Blocks WP
  * Author URI: https://blocks-wp.com/
  * License: GPL-2.0+
@@ -22,7 +22,7 @@ if ( ! defined( 'WPST_BLOCK_TEMPLATES_LIBRARY_URL' ) ) {
 	define( 'WPST_BLOCK_TEMPLATES_LIBRARY_URL', apply_filters( 'wpst_block_templates_library_url', 'https://wp-fse.com/' ) );
 }
 
-define( 'WPST_BLOCK_TEMPLATES_VER', '1.0.3' );
+define( 'WPST_BLOCK_TEMPLATES_VER', '1.0.5' );
 define( 'WPST_BLOCK_TEMPLATES_FILE', __FILE__ );
 define( 'WPST_BLOCK_TEMPLATES_BASE', plugin_basename( WPST_BLOCK_TEMPLATES_FILE ) );
 define( 'WPST_BLOCK_TEMPLATES_DIR', plugin_dir_path( WPST_BLOCK_TEMPLATES_FILE ) );
